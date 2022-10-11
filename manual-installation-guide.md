@@ -13,6 +13,14 @@ sudo apt upgrade
 sudo apt install unzip
 ```
 
+### Install Megacmd
+```
+wget https://mega.nz/linux/repo/xUbuntu_20.04/amd64/megacmd-xUbuntu_20.04_amd64.deb
+```
+```
+sudo apt install $HOME/megacmd-xUbuntu_20.04_amd64.deb
+```
+
 ### Install Apache, MariaDB server and php module for apache
 ```
 sudo apt install apache2 mariadb-server libapache2-mod-php7.4
