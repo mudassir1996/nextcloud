@@ -122,3 +122,9 @@ nano /etc/php/7.4/apache2/php.ini
 ```
 Change mermory limit to 512M
 
+
+### Add cronjob
+```
+*/5  *  *  *  * php -f /var/www/nextcloud/cron.php
+```
+
