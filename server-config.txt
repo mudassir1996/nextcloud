@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+ DocumentRoot document-root
+ ServerName your-server-name
+
+  <Directory document-root>
+    Require all granted
+    AllowOverride All
+    Options FollowSymLinks MultiViews
+
+    <IfModule mod_dav.c>
+      Dav off
+    </IfModule>
+
+  </Directory>
+</VirtualHost>
