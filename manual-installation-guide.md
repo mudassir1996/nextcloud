@@ -128,3 +128,7 @@ Change mermory limit to 512M
 */5  *  *  *  * php -f /var/www/nextcloud/cron.php
 ```
 
+### Elasticsearch Installation
+https://kenfavors.com/code/how-to-install-full-text-search-using-elastic-search-and-nextcloud/
+https://najigram.com/2022/02/setup-elasticsearch-7-for-nextcloud/
+
