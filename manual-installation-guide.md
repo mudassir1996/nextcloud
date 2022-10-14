@@ -131,5 +131,6 @@ Change mermory limit to 512M
 ### Elasticsearch Installation
 
 https://kenfavors.com/code/how-to-install-full-text-search-using-elastic-search-and-nextcloud/ <br>
-https://najigram.com/2022/02/setup-elasticsearch-7-for-nextcloud/
+https://najigram.com/2022/02/setup-elasticsearch-7-for-nextcloud/ <br>
+https://markus-blog.de/index.php/2018/06/21/how-to-install-fulltextsearch-in-nextcloud-13-with-elasticsearch-and-tesseract-ocr/
 
