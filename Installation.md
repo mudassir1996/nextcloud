@@ -16,7 +16,22 @@ bash install_ec_instance.sh
 
 Add following code in /var/www/ec_instance/config/config.php 
 ```
-'default_phone_region' => 'SG', 'skeletondirectory' => ''
+'default_phone_region' => 'SG', 
+  'skeletondirectory' => '',
+  'memcache.local' => '\\OC\\Memcache\\APCu',
+  'distributed' => '\\OC\\Memcache\\Redis',
+  'memcache.locking' => '\\OC\\Memcache\\Redis',
+  'filelocking.enabled' => 'true',
+  'redis' => 
+  array (
+    'host' => '/var/run/redis/redis-server.sock',
+    'port' => 0,
+    'timeout' => 0.0,
+  ),
+  'preview_libreoffice_path' => '/usr/bin/libreoffice',
+  'integrity.check.disabled' => true,
+  'trashbin_retention_obligation' => '365, auto',
+  'knowledgebaseenabled' => false,
 ```
 and signup.
 
