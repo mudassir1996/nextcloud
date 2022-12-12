@@ -44,6 +44,15 @@ backup.sh
 Add cronjobs
 
 ### SSL installation (if needed)
-https://che-adrian.medium.com/make-your-nextcloud-ready-for-accessing-over-the-internet-9a17116a44ce
+```
+certbot --apache
+```
+
+### Add HTTP header
+```
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
+</IfModule>
+```
 
 
