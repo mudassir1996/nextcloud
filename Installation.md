@@ -11,6 +11,10 @@ https://markus-blog.de/index.php/2018/06/21/how-to-install-fulltextsearch-in-nex
 ```
 bash install_ec_instance.sh
 ```
+
+```
+sudo -u www-data php /var/www/html/occ fulltextsearch:test
+```
 ### Install clamav
 ### Visit instance url (Do not sign up)
 
@@ -36,6 +40,9 @@ Add following code in /var/www/ec_instance/config/config.php
 and signup.
 
 Add elasticsearch indexes 
+```
+curl -X PUT "http://localhost:9200/index_name?pretty"
+```
 
 Add Backup file at /var/www
 ```
