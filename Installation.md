@@ -63,4 +63,8 @@ certbot --apache
 </IfModule>
 ```
 
+### Add fulltext search service
+Location /etc/systemd/system/ <br>
+refer to https://github.com/nextcloud/fulltextsearch/wiki/Basic-Installation#live-index-service for more details
+
 
